@@ -42,6 +42,16 @@ export default function Navbar() {
           >
             Episodes
           </Link>
+          <Link
+            href="/teen-money-method"
+            className={`text-sm font-medium transition-colors ${
+              pathname === "/teen-money-method"
+                ? "text-terracotta"
+                : "text-foreground hover:text-terracotta"
+            }`}
+          >
+            Teen Money Method
+          </Link>
         </div>
       </div>
     </nav>
