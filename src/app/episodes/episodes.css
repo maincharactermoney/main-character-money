@@ -369,3 +369,46 @@
     font-size: 1.5rem;
   }
 }
+
+/* ── STREAMING BUTTONS ON CARDS ── */
+
+.episode-stream-buttons {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #f0ebe3;
+}
+
+.stream-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.stream-btn:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+.stream-btn--spotify {
+  background: #1DB954;
+  color: #fff;
+}
+
+.stream-btn--apple {
+  background: #FC3C44;
+  color: #fff;
+}
+
+.stream-btn--youtube {
+  background: #FF0000;
+  color: #fff;
+}
