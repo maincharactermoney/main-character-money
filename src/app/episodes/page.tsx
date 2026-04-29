@@ -13,7 +13,7 @@ export default function EpisodesPage() {
     <main className="episodes-page">
       <section className="episodes-hero">
         <p className="episodes-label">All Episodes</p>
-        <h1>
+        <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
           Every episode, <span className="accent">one place</span>
         </h1>
         <p className="episodes-subtitle">
