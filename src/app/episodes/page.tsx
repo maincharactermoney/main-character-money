@@ -1,3 +1,6 @@
+tsimport "./episodes.css";  // on the list page
+import "../episodes.css"; // on the [slug]/page.tsx (one level up)
+
 import Link from "next/link";
 import { episodes } from "@/lib/episodes";
 
