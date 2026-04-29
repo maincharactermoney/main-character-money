@@ -134,7 +134,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-terracotta/80 to-terracotta">
+      <section className="py-20 bg-pink-500">
         <FadeIn>
           <div className="max-w-3xl mx-auto px-6 text-center">
             <h2 className="font-display text-4xl md:text-5xl font-bold text-white italic leading-tight">
