@@ -370,14 +370,44 @@
   }
 }
 
+/* ── CARD WRAPPER (holds Link card + stream buttons) ── */
+
+.episode-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e0d8cc;
+  border-radius: 16px;
+  background: #fff;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.episode-card-wrapper:hover {
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.episode-card-wrapper .episode-card {
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  transform: none;
+  flex: 1;
+}
+
+.episode-card-wrapper .episode-card:hover {
+  box-shadow: none;
+  transform: none;
+}
+
 /* ── STREAMING BUTTONS ON CARDS ── */
 
 .episode-stream-buttons {
   display: flex;
   gap: 0.5rem;
   flex-wrap: wrap;
-  margin-top: 1rem;
-  padding-top: 1rem;
+  padding: 0.85rem 1.75rem 1rem;
   border-top: 1px solid #f0ebe3;
 }
 
