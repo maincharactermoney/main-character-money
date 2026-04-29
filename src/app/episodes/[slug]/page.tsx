@@ -1,4 +1,3 @@
-ts
   
 import "../episodes.css";
 import Link from "next/link";
