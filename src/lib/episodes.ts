@@ -10,6 +10,7 @@ export interface Episode {
   takeaways: string[];
   spotifyUrl?: string;
   appleUrl?: string;
+  youtubeUrl?: string;
 }
 
 export const episodes: Episode[] = [
@@ -30,6 +31,9 @@ export const episodes: Episode[] = [
       "Awareness is the first step: you can't change what you haven't named",
       "A healthy money mindset is a skill, not a personality trait",
     ],
+    spotifyUrl: "#",
+    appleUrl: "#",
+    youtubeUrl: "#",
   },
   {
     id: 2,
@@ -48,6 +52,9 @@ export const episodes: Episode[] = [
       "Automate your savings so it happens before you can spend it",
       "Budget for fun — a plan that makes you miserable isn't a plan you'll stick to",
     ],
+    spotifyUrl: "#",
+    appleUrl: "#",
+    youtubeUrl: "#",
   },
   {
     id: 3,
@@ -66,6 +73,9 @@ export const episodes: Episode[] = [
       "Compound interest is most powerful over long time horizons; every year you wait costs you",
       "Employer 401(k) match is an instant 50-100% return — always capture it first",
     ],
+    spotifyUrl: "#",
+    appleUrl: "#",
+    youtubeUrl: "#",
   },
   {
     id: 4,
@@ -84,6 +94,9 @@ export const episodes: Episode[] = [
       "\"Passive income\" almost always requires significant active work first",
       "The best side hustle is one that builds toward your bigger goals, not just your bank account",
     ],
+    spotifyUrl: "#",
+    appleUrl: "#",
+    youtubeUrl: "#",
   },
   {
     id: 5,
@@ -102,6 +115,9 @@ export const episodes: Episode[] = [
       "List all debts with balances, minimum payments, and interest rates before picking a method",
       "Carrying debt has a psychological cost beyond the financial one — factor that in",
     ],
+    spotifyUrl: "#",
+    appleUrl: "#",
+    youtubeUrl: "#",
   },
   {
     id: 6,
@@ -120,6 +136,9 @@ export const episodes: Episode[] = [
       "Keep your emergency fund in a high-yield savings account, separate from your everyday checking",
       "Define what counts as an emergency before you need the money — it prevents rationalization",
     ],
+    spotifyUrl: "#",
+    appleUrl: "#",
+    youtubeUrl: "#",
   },
 ];
 
