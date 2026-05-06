@@ -10,7 +10,7 @@ export interface Episode {
 export const episodes: Episode[] = [
   {
     number: 1,
-    title: "Why Your Money Story Matters",
+    title: "Needs vs Wants",
     date: "Feb 28, 2026",
     duration: "32 min",
     description:
@@ -19,7 +19,7 @@ export const episodes: Episode[] = [
   },
   {
     number: 2,
-    title: "The Budget That Actually Works",
+    title: "What financial accounts do teens need?",
     date: "Mar 7, 2026",
     duration: "28 min",
     description:
