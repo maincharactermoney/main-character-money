@@ -5,7 +5,7 @@ import { ArrowRight, ArrowDown, Wallet, Landmark, TrendingUp, PiggyBank, Zap } f
 const steps = [
   {
     number: "1",
-    title: "Build a Money System",
+    <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">Build a Money System</h1>,
     description:
       "Set the foundation. Learn how to track what's coming in and going out so every dollar has a job.",
     icon: Wallet,
